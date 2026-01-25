@@ -215,7 +215,10 @@ body {
 /* --- FOOTER MỚI (DARK BLUE) --- */
 .main-footer {
   background-image: url("../img/background-xanh-1.jpg");
-  background-repeat: no-repeat; /* Màu xanh than đậm chuyên nghiệp */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
   color: #e2e8f0;
   padding-top: 60px;
   margin-top: 80px; /* Cách xa phần bên trên một chút */
