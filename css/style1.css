@@ -108,9 +108,9 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(229, 62, 62, 0.4);
 }
-.btn-start .link-start{
-    text-decoration: none;
-    color: white;
+.btn-start .link-start {
+  text-decoration: none;
+  color: white;
 }
 
 /* Ảnh minh họa: Giới hạn chiều cao để không bị vỡ giao diện */
@@ -256,7 +256,10 @@ body {
 }
 
 /* Danh sách liên kết */
-.footer-col ul {
+.footer-col .fast-access {
+  margin-left: 20px;
+}
+.footer-col .call {
   list-style: none;
 }
 .footer-col ul li {
