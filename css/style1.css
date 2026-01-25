@@ -5,7 +5,7 @@
   font-family: "Segoe UI", sans-serif;
 }
 body {
-  background-color:#f0f6ff;
+  background-color: #f0f6ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,10 +125,15 @@ body {
 .teacher:hover {
   color: blue;
 }
+
+.main-body .book {
+  width: 250px;
+  margin-left: 50px;
+}
 .endnote {
   font-size: 13px;
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 2px; */
   font-weight: 200;
   color: #bebebe;
 }
