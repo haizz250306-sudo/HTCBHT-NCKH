@@ -48,7 +48,7 @@ body {
   font-weight: 700;
 }
 
-.btn-nav-login {
+.nav-links .btn-nav-login {
   background-color: #3182ce;
   color: white;
   padding: 8px 20px;
