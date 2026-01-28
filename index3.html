@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hồ Sơ Sinh Viên</title>
+    <link rel="stylesheet" href="css/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <nav class="sidebar">
+        <div class="brand">
+          <h2><i class="fa-solid fa-graduation-cap"></i> Edu-Alert</h2>
+        </div>
+
+        <ul class="menu-list">
+          <li class="active">
+            <a href="#"><i class="fa-solid fa-user"></i> Thông tin cá nhân</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-chart-line"></i> Điểm tích lũy</a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-list-check"></i> Tiến độ học tập</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-triangle-exclamation"></i> Cảnh báo học
+              vụ</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-gear"></i> Cài đặt</a>
+          </li>
+        </ul>
+
+        <div class="logout-section">
+          <a href="#"
+            ><i class="fa-solid fa-right-from-bracket"></i> Đăng xuất</a
+          >
+        </div>
+      </nav>
+
+      <main class="main-content">
+        <header class="top-header">
+          <h1>Hồ Sơ Sinh Viên</h1>
+          <div class="user-corner">
+            <span id="header-name">Đang tải...</span>
+            <div class="mini-avatar"><i class="fa-solid fa-user"></i></div>
+          </div>
+        </header>
+
+        <div class="info-wrapper">
+          <div class="card">
+            <h3><i class="fa-solid fa-id-card"></i> Thông Tin Cơ Bản</h3>
+            <div class="info-row">
+              <div class="info-group">
+                <label>Họ và tên</label>
+                <span id="info-fullname">...</span>
+              </div>
+              <div class="info-group">
+                <label>Mã số sinh viên</label>
+                <span id="info-mssv" class="highlight">...</span>
+              </div>
+              <div class="info-group">
+                <label>Ngày sinh</label>
+                <span id="info-dob">...</span>
+              </div>
+              <div class="info-group">
+                <label>Giới tính</label>
+                <span id="info-gender">...</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3><i class="fa-solid fa-book-open"></i> Thông Tin Học Vụ</h3>
+            <div class="info-row">
+              <div class="info-group">
+                <label>Lớp sinh hoạt</label>
+                <span id="info-class">...</span>
+              </div>
+              <div class="info-group">
+                <label>Khoa / Ngành</label>
+                <span id="info-major">...</span>
+              </div>
+              <div class="info-group">
+                <label>GPA Tích Lũy</label>
+                <span id="info-gpa" class="score-badge">...</span>
+              </div>
+              <div class="info-group">
+                <label>Trạng thái</label>
+                <span id="info-status" class="status-tag">...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
