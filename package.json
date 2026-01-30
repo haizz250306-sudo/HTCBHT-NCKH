@@ -2,26 +2,22 @@
   "name": "httccht-html",
   "version": "1.0.0",
   "description": "",
-  "main": "db.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "homepage": "https://github.com/haizz250306-sudo/HTCBHT-NCKH#readme",
+  "bugs": {
+    "url": "https://github.com/haizz250306-sudo/HTCBHT-NCKH/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/haizz250306-sudo/HTCBHT-NCKH.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "Nam",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/haizz250306-sudo/HTCBHT-NCKH/issues"
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/haizz250306-sudo/HTCBHT-NCKH#readme",
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "mssql": "^12.2.0"
+    "express": "^5.2.1"
   }
 }
